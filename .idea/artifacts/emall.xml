@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="emall">
+    <output-path>$PROJECT_DIR$/classes/artifacts/emall</output-path>
+    <root id="archive" name="emall.war">
+      <element id="artifact" artifact-name="emall_ssm_mysql:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="Java EE 6-Java EE 6 (2)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
